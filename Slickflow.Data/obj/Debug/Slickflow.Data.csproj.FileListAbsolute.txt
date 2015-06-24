@@ -1,0 +1,14 @@
+C:\Users\p140024\Desktop\Slickflow\Source\Slickflow.Data\bin\Debug\Slickflow.Data.dll
+C:\Users\p140024\Desktop\Slickflow\Source\Slickflow.Data\bin\Debug\Slickflow.Data.pdb
+C:\Users\p140024\Desktop\Slickflow\Source\Slickflow.Data\bin\Debug\Dapper.dll
+C:\Users\p140024\Desktop\Slickflow\Source\Slickflow.Data\bin\Debug\Dapper.pdb
+C:\Users\p140024\Desktop\Slickflow\Source\Slickflow.Data\obj\Debug\Slickflow.Data.csprojResolveAssemblyReference.cache
+C:\Users\p140024\Desktop\Slickflow\Source\Slickflow.Data\obj\Debug\Slickflow.Data.dll
+C:\Users\p140024\Desktop\Slickflow\Source\Slickflow.Data\obj\Debug\Slickflow.Data.pdb
+E:\Code\SlickFow\Slickflow.Data\bin\Debug\Slickflow.Data.dll
+E:\Code\SlickFow\Slickflow.Data\bin\Debug\Slickflow.Data.pdb
+E:\Code\SlickFow\Slickflow.Data\bin\Debug\Dapper.dll
+E:\Code\SlickFow\Slickflow.Data\bin\Debug\Dapper.pdb
+E:\Code\SlickFow\Slickflow.Data\obj\Debug\Slickflow.Data.csprojResolveAssemblyReference.cache
+E:\Code\SlickFow\Slickflow.Data\obj\Debug\Slickflow.Data.dll
+E:\Code\SlickFow\Slickflow.Data\obj\Debug\Slickflow.Data.pdb

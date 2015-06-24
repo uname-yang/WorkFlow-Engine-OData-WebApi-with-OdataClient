@@ -1,0 +1,9 @@
+C:\Users\p140024\Desktop\Slickflow\Source\Dapper\bin\Debug\Dapper.dll
+C:\Users\p140024\Desktop\Slickflow\Source\Dapper\bin\Debug\Dapper.pdb
+C:\Users\p140024\Desktop\Slickflow\Source\Dapper\obj\Debug\Dapper.csprojResolveAssemblyReference.cache
+C:\Users\p140024\Desktop\Slickflow\Source\Dapper\obj\Debug\Dapper.dll
+C:\Users\p140024\Desktop\Slickflow\Source\Dapper\obj\Debug\Dapper.pdb
+E:\Code\SlickFow\Dapper\bin\Debug\Dapper.dll
+E:\Code\SlickFow\Dapper\bin\Debug\Dapper.pdb
+E:\Code\SlickFow\Dapper\obj\Debug\Dapper.dll
+E:\Code\SlickFow\Dapper\obj\Debug\Dapper.pdb

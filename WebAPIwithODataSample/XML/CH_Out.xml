@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <Participants>
+    <Participant type="Role" id="6398503c-25da-4c49-9530-41d3573c860c" name="设计部工程师" code="CO_EDD_Engineer" outerId="11"/>
+    <Participant type="Role" id="cfb8d004-b27e-40a1-9bc7-55323de0b59b" name="设计部主任工程师" code="CO_EDD_Senior_Engineer" outerId="12"/>
+    <Participant type="Role" id="fd89a442-d8dd-4dfb-9190-961202c2a0d7" name="中核能源设总" code="CO_Design_Chief_Engineer" outerId="13" />
+    <Participant type="Role" id="47060df9-1b04-4d6b-b9e3-953b4dfd6af9" name="副总工程师" code="CO_Deputy_Chief_Engineer" outerId="14" />
+    <Participant type="Role" id="ed0824cb-f8c4-490d-98be-9f05254e3d46" name="设计部接口管理工程师" code="CO_EDD_Interface_Managemant_Engineer" outerId="15" />
+    <Participant type="Role" id="9eff7cd9-387f-4efd-9f07-90823c47b90a" name="联合总体室接口管理工程师" code="CO_JGD_Interface_Managemant_Engineer" outerId="16" />
+  </Participants>
+  <WorkflowProcess>
+    <Process name="中核设计项外部设计接口流程" id="40c4be7f-2c7d-4391-92a3-32e2dc24f58f">
+      <Description>中核设计项外部设计接口流程描述</Description>
+      <Activities>
+        <Activity name="开始" id="e357fe9e-dc33-4075-bd34-6f7425bb7671" code="start">
+          <Description />
+          <ActivityType type="StartNode"/>
+          <Geography>
+            <Widget nodeId="1" left="134" top="40" width="50" height="50">
+              <Connectors>
+                <Connector type="input" index="1" name="A" />
+                <Connector type="output" index="1" name="X" />
+              </Connectors>
+            </Widget>
+          </Geography>
+        </Activity>
+        <Activity name="申请方编制" id="aad747dd-2b75-449c-a8a6-391b8a426e83" code="CO_1">
+          <Description>申请方编制</Description>
+          <ActivityType type="TaskNode" />
+          <Performers>
+            <Performer id="6398503c-25da-4c49-9530-41d3573c860c" />
+          </Performers>
+          <Geography>
+            <Widget nodeId="2" left="209" top="87" width="120" height="50">
+              <Connectors>
+                <Connector type="input" index="1" name="A" />
+                <Connector type="output" index="1" name="X" />
+              </Connectors>
+            </Widget>
+          </Geography>
+        </Activity>
+        <Activity name="申请方审核" id="fc8c71c5-8786-450e-af27-9f6a9de8560f" code="CO_2">
+          <Description>申请方审核</Description>
+          <ActivityType type="TaskNode" />
+          <Performers>
+            <Performer id="cfb8d004-b27e-40a1-9bc7-55323de0b59b" />
+          </Performers>
+          <Geography>
+            <Widget nodeId="3" left="311" top="187" width="120" height="50">
+              <Connectors>
+                <Connector type="input" index="1" name="A" />
+                <Connector type="output" index="1" name="X" />
+              </Connectors>
+            </Widget>
+          </Geography>
+        </Activity>
+        <Activity name="申请方审定" id="39c71004-d822-4c15-9ff2-94ca1068d745" code="CO_3">
+          <Description>申请方审定</Description>
+          <ActivityType type="TaskNode" />
+          <Performers>
+            <Performer id="fd89a442-d8dd-4dfb-9190-961202c2a0d7" />
+          </Performers>
+          <Geography>
+            <Widget nodeId="4" left="406" top="280" width="120" height="50">
+              <Connectors>
+                <Connector type="input" index="1" name="A" />
+                <Connector type="output" index="1" name="X" />
+              </Connectors>
+            </Widget>
+          </Geography>
+        </Activity>
+        <Activity name="申请方批准" id="b8b1d081-84a6-41ef-be7e-e7e3c76887a1" code="CO_4">
+          <Description>申请方批准</Description>
+          <ActivityType type="TaskNode" />
+          <Performers>
+            <Performer id="47060df9-1b04-4d6b-b9e3-953b4dfd6af9" />
+          </Performers>
+          <Geography>
+            <Widget nodeId="4" left="406" top="280" width="120" height="50">                                                                               
+              <Connectors>
+                <Connector type="input" index="1" name="A" />
+                <Connector type="output" index="1" name="X" />
+              </Connectors>
+            </Widget>
+          </Geography>
+        </Activity>
+        <Activity name="审核登记" id="2159ac37-6a49-48dc-82f5-4b97f93e6076" code="CO_5">
+          <Description>审核登记</Description>
+          <ActivityType type="TaskNode" />
+          <Performers>
+            <Performer id="ed0824cb-f8c4-490d-98be-9f05254e3d46" />
+          </Performers>
+          <Geography>
+            <Widget nodeId="4" left="406" top="280" width="120" height="50">
+              <Connectors>
+                <Connector type="input" index="1" name="A" />
+                <Connector type="output" index="1" name="X" />
+              </Connectors>
+            </Widget>
+          </Geography>
+        </Activity>
+        <Activity name="审核登记外发回函录入" id="41078df3-9024-4a01-9e00-10e41508b0f2" code="CO_6">
+          <Description>审核登记外发回函录入</Description>
+          <ActivityType type="TaskNode" />
+          <Performers>
+            <Performer id="9eff7cd9-387f-4efd-9f07-90823c47b90a" />
+          </Performers>
+          <Geography>
+            <Widget nodeId="4" left="406" top="280" width="120" height="50">
+              <Connectors>
+                <Connector type="input" index="1" name="A" />
+                <Connector type="output" index="1" name="X" />
+              </Connectors>
+            </Widget>
+          </Geography>
+        </Activity>
+        <Activity name="审核登记" id="0d8656da-909a-4ffa-8d14-46c620425bc9" code="CO_7">
+          <Description>审核登记</Description>
+          <ActivityType type="TaskNode" />
+          <Performers>
+            <Performer id="ed0824cb-f8c4-490d-98be-9f05254e3d46" />
+          </Performers>
+          <Geography>
+            <Widget nodeId="4" left="406" top="280" width="120" height="50">
+              s
+              <Connectors>
+                <Connector type="input" index="1" name="A" />
+                <Connector type="output" index="1" name="X" />
+              </Connectors>
+            </Widget>
+          </Geography>
+        </Activity>
+        <Activity name="接收方批准" id="302b2e4c-74ab-4f15-90d0-ca01d53dd54a" code="CO_8">
+          <Description>接收方批准</Description>
+          <ActivityType type="TaskNode" />
+          <Performers>
+            <Performer id="fd89a442-d8dd-4dfb-9190-961202c2a0d7" />
+          </Performers>
+          <Geography>
+            <Widget nodeId="4" left="406" top="280" width="120" height="50">
+              <Connectors>
+                <Connector type="input" index="1" name="A" />
+                <Connector type="output" index="1" name="X" />
+              </Connectors>
+            </Widget>
+          </Geography>
+        </Activity>
+        <Activity name="接收方审核人确认" id="64010e4d-03e6-46df-b624-5a669b00f1be" code="CO_9">
+          <Description>接收方审核人确认</Description>
+          <ActivityType type="TaskNode" />
+          <Performers>
+            <Performer id="cfb8d004-b27e-40a1-9bc7-55323de0b59b" />
+          </Performers>
+          <Geography>
+            <Widget nodeId="4" left="406" top="280" width="120" height="50">
+              <Connectors>
+                <Connector type="input" index="1" name="A" />
+                <Connector type="output" index="1" name="X" />
+              </Connectors>
+            </Widget>
+          </Geography>
+        </Activity>
+        <Activity name="接收方编制人确认" id="76167b7d-12ec-4548-a323-4b4ce5356bb4" code="CO_10">
+          <Description>接收方编制人确认</Description>
+          <ActivityType type="TaskNode" />
+          <Performers>
+            <Performer id="6398503c-25da-4c49-9530-41d3573c860c" />
+          </Performers>
+          <Geography>
+            <Widget nodeId="4" left="406" top="280" width="120" height="50">
+              <Connectors>
+                <Connector type="input" index="1" name="A" />
+                <Connector type="output" index="1" name="X" />
+              </Connectors>
+            </Widget>
+          </Geography>
+        </Activity>
+        <Activity name="结束" id="b70e717a-08da-419f-b2eb-7a3d71f054de" code="end">
+          <Description />
+          <ActivityType type="EndNode"/>
+          <Geography>
+            <Widget nodeId="5" left="564" top="375" width="50" height="50">
+              <Connectors>
+                <Connector type="input" index="1" name="A" />
+                <Connector type="output" index="1" name="X" />
+              </Connectors>
+            </Widget>
+          </Geography>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition name="T1" id="8e463d0b-ba35-4d4c-8fd8-64e76c65e486" from="e357fe9e-dc33-4075-bd34-6f7425bb7671" to="aad747dd-2b75-449c-a8a6-391b8a426e83">
+          <Description>开始->申请方编制</Description>
+          <Conditions />
+          <Geography>
+            <Line id="1" fromNode="1" fromConnector="1" toNode="2" toConnector="1"/>
+          </Geography>
+        </Transition>
+        <Transition name="T2" id="e9aec8aa-ef1d-49be-9300-f4643ecaa518" from="aad747dd-2b75-449c-a8a6-391b8a426e83" to="fc8c71c5-8786-450e-af27-9f6a9de8560f">
+          <Description>申请方编制->申请方审核</Description>
+          <Conditions />
+          <Geography>
+            <Line id="2" fromNode="2" fromConnector="1" toNode="3" toConnector="1"/>
+          </Geography>
+        </Transition>
+        <Transition name="T3" id="7adf96eb-e4d4-4991-95aa-55215947f8f6" from="fc8c71c5-8786-450e-af27-9f6a9de8560f" to="39c71004-d822-4c15-9ff2-94ca1068d745">
+          <Description>申请方审核->申请方审定</Description>
+          <Conditions />
+          <Geography>
+            <Line id="3" fromNode="3" fromConnector="1" toNode="4" toConnector="1"/>
+          </Geography>
+        </Transition>
+        <Transition name="T4" id="6fb55c22-8f6a-4f0f-bd5f-a91b0b69b34c" from="39c71004-d822-4c15-9ff2-94ca1068d745" to="b8b1d081-84a6-41ef-be7e-e7e3c76887a1">
+          <Description>申请方审定->申请方批准</Description>
+          <Conditions />
+          <Geography>
+            <Line id="4" fromNode="3" fromConnector="1" toNode="4" toConnector="1"/>
+          </Geography>
+        </Transition>
+        <Transition name="T5" id="8909b1ae-c7ab-4cc8-89f8-df8138013a1b" from="b8b1d081-84a6-41ef-be7e-e7e3c76887a1" to="2159ac37-6a49-48dc-82f5-4b97f93e6076">
+          <Description>申请方批准->审核登记</Description>
+          <Conditions />
+          <Geography>
+            <Line id="1" fromNode="3" fromConnector="1" toNode="4" toConnector="1"/>
+          </Geography>
+        </Transition>
+        <Transition name="T6" id="d58224be-6e49-46a8-82d0-f2ffb1ae8d1d" from="2159ac37-6a49-48dc-82f5-4b97f93e6076" to="41078df3-9024-4a01-9e00-10e41508b0f2">
+          <Description>审核登记->审核登记外发回函录入</Description>
+          <Conditions />
+          <Geography>
+            <Line id="1" fromNode="3" fromConnector="1" toNode="4" toConnector="1"/>
+          </Geography>
+        </Transition>
+        <Transition name="T7" id="5247b2fb-05ce-425e-920f-8817161c8bb86" from="41078df3-9024-4a01-9e00-10e41508b0f2" to="0d8656da-909a-4ffa-8d14-46c620425bc9">
+          <Description>审核登记外发回函录入->审核登记</Description>
+          <Conditions />
+          <Geography>
+            <Line id="1" fromNode="3" fromConnector="1" toNode="4" toConnector="1"/>
+          </Geography>
+        </Transition>
+        <Transition name="T8" id="98e20197-0396-4e45-9bb4-caf7179a7f64" from="0d8656da-909a-4ffa-8d14-46c620425bc9" to="302b2e4c-74ab-4f15-90d0-ca01d53dd54a">
+          <Description>审核登记->接收方批准</Description>
+          <Conditions />
+          <Geography>
+            <Line id="1" fromNode="3" fromConnector="1" toNode="4" toConnector="1"/>
+          </Geography>
+        </Transition>
+        <Transition name="T9" id="6018f283-7c01-445a-8e8e-a2e4f9959a43" from="302b2e4c-74ab-4f15-90d0-ca01d53dd54a" to="64010e4d-03e6-46df-b624-5a669b00f1be">
+          <Description>接收方批准->接收方审核人确认</Description>
+          <Conditions />
+          <Geography>
+            <Line id="1" fromNode="3" fromConnector="1" toNode="4" toConnector="1"/>
+          </Geography>
+        </Transition>
+        <Transition name="T10" id="98e20197-0396-4e45-9bb4-caf7179a7f64" from="64010e4d-03e6-46df-b624-5a669b00f1be" to="76167b7d-12ec-4548-a323-4b4ce5356bb4">
+          <Description>接收方审核人确认->接收方编制人确认</Description>
+          <Conditions />
+          <Geography>
+            <Line id="1" fromNode="3" fromConnector="1" toNode="4" toConnector="1"/>
+          </Geography>
+        </Transition>
+        <Transition name="T11" id="77a3b03d-d2cd-420d-801e-19bc11ef3d10" from="76167b7d-12ec-4548-a323-4b4ce5356bb4" to="b70e717a-08da-419f-b2eb-7a3d71f054de">
+          <Description>接收方编制人确认->结束</Description>
+          <Conditions />
+          <Geography>
+            <Line id="1" fromNode="4" fromConnector="1" toNode="5" toConnector="1"/>
+          </Geography>
+        </Transition>
+      </Transitions>
+    </Process>
+  </WorkflowProcess>
+</Package>

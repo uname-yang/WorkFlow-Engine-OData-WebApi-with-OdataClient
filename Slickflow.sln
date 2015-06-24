@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper", "Dapper\Dapper.csproj", "{4DA6306B-B9F0-4E06-ACA0-2A1400DD9BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slickflow.Engine", "Slickflow.Engine\Slickflow.Engine.csproj", "{F2AA5CC3-4212-4C6C-9336-A5C10F46AFFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slickflow.Data", "Slickflow.Data\Slickflow.Data.csproj", "{E0A4FC43-54AF-49B3-A227-0CE9DB503903}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{76DAC76A-385A-4C7F-B916-BBE51A5E3892}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E0030A6C-51CE-4B04-BA9F-DC310302BE22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "STFiles", "STFiles", "{2832E7AE-ACD4-49B1-913C-4E17246A99AA}"
+	ProjectSection(SolutionItems) = preProject
+		initsql.sql = initsql.sql
+		wfdb.sql = wfdb.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIwithODataSample", "WebAPIwithODataSample\WebAPIwithODataSample.csproj", "{F236A7EE-9E88-4A20-9A2D-E82111E29ED7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API.Test", "API.Test", "{96D1164F-1689-49BA-B70D-5A710213D1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFCOTest", "WFCOTest\WFCOTest.csproj", "{23EF62FE-4336-4562-884B-25D4A8DFC837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTool", "ODataClientSample\ClientTool.csproj", "{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{C425EB6C-9125-49C0-970C-C5C195C538B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientSample", "ClientSample\ClientSample\ClientSample.csproj", "{7522062E-A8DB-4897-8D99-D60D5AD009DA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.16.222.100:8080/tfs/projectcode2014
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Dapper\\Dapper.csproj
+		SccProjectTopLevelParentUniqueName1 = Slickflow.sln
+		SccProjectName1 = Dapper
+		SccLocalPath1 = Dapper
+		SccProjectUniqueName2 = Slickflow.Data\\Slickflow.Data.csproj
+		SccProjectTopLevelParentUniqueName2 = Slickflow.sln
+		SccProjectName2 = Slickflow.Data
+		SccLocalPath2 = Slickflow.Data
+		SccProjectUniqueName3 = Slickflow.Engine\\Slickflow.Engine.csproj
+		SccProjectTopLevelParentUniqueName3 = Slickflow.sln
+		SccProjectName3 = Slickflow.Engine
+		SccLocalPath3 = Slickflow.Engine
+		SccProjectUniqueName4 = WebAPIwithODataSample\\WebAPIwithODataSample.csproj
+		SccProjectTopLevelParentUniqueName4 = Slickflow.sln
+		SccProjectName4 = WebAPIwithODataSample
+		SccLocalPath4 = WebAPIwithODataSample
+		SccProjectUniqueName5 = WFCOTest\\WFCOTest.csproj
+		SccProjectTopLevelParentUniqueName5 = Slickflow.sln
+		SccProjectName5 = WFCOTest
+		SccLocalPath5 = WFCOTest
+		SccProjectUniqueName6 = ODataClientSample\\ClientTool.csproj
+		SccProjectTopLevelParentUniqueName6 = Slickflow.sln
+		SccProjectName6 = ODataClientSample
+		SccLocalPath6 = ODataClientSample
+		SccProjectUniqueName7 = ClientSample\\ClientSample\\ClientSample.csproj
+		SccProjectTopLevelParentUniqueName7 = Slickflow.sln
+		SccProjectName7 = ClientSample/ClientSample
+		SccLocalPath7 = ClientSample\\ClientSample
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DA6306B-B9F0-4E06-ACA0-2A1400DD9BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA6306B-B9F0-4E06-ACA0-2A1400DD9BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA6306B-B9F0-4E06-ACA0-2A1400DD9BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA6306B-B9F0-4E06-ACA0-2A1400DD9BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2AA5CC3-4212-4C6C-9336-A5C10F46AFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AA5CC3-4212-4C6C-9336-A5C10F46AFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AA5CC3-4212-4C6C-9336-A5C10F46AFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AA5CC3-4212-4C6C-9336-A5C10F46AFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A4FC43-54AF-49B3-A227-0CE9DB503903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A4FC43-54AF-49B3-A227-0CE9DB503903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A4FC43-54AF-49B3-A227-0CE9DB503903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A4FC43-54AF-49B3-A227-0CE9DB503903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F236A7EE-9E88-4A20-9A2D-E82111E29ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F236A7EE-9E88-4A20-9A2D-E82111E29ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F236A7EE-9E88-4A20-9A2D-E82111E29ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F236A7EE-9E88-4A20-9A2D-E82111E29ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23EF62FE-4336-4562-884B-25D4A8DFC837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EF62FE-4336-4562-884B-25D4A8DFC837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EF62FE-4336-4562-884B-25D4A8DFC837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EF62FE-4336-4562-884B-25D4A8DFC837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7522062E-A8DB-4897-8D99-D60D5AD009DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7522062E-A8DB-4897-8D99-D60D5AD009DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7522062E-A8DB-4897-8D99-D60D5AD009DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7522062E-A8DB-4897-8D99-D60D5AD009DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2AA5CC3-4212-4C6C-9336-A5C10F46AFFE} = {E0030A6C-51CE-4B04-BA9F-DC310302BE22}
+		{E0A4FC43-54AF-49B3-A227-0CE9DB503903} = {E0030A6C-51CE-4B04-BA9F-DC310302BE22}
+		{4DA6306B-B9F0-4E06-ACA0-2A1400DD9BD0} = {E0030A6C-51CE-4B04-BA9F-DC310302BE22}
+		{F236A7EE-9E88-4A20-9A2D-E82111E29ED7} = {76DAC76A-385A-4C7F-B916-BBE51A5E3892}
+		{96D1164F-1689-49BA-B70D-5A710213D1D4} = {76DAC76A-385A-4C7F-B916-BBE51A5E3892}
+		{23EF62FE-4336-4562-884B-25D4A8DFC837} = {96D1164F-1689-49BA-B70D-5A710213D1D4}
+		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7} = {96D1164F-1689-49BA-B70D-5A710213D1D4}
+		{7522062E-A8DB-4897-8D99-D60D5AD009DA} = {C425EB6C-9125-49C0-970C-C5C195C538B0}
+	EndGlobalSection
+EndGlobal
