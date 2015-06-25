@@ -7,3 +7,8 @@ E:\Code\SlickFow\Dapper\bin\Debug\Dapper.dll
 E:\Code\SlickFow\Dapper\bin\Debug\Dapper.pdb
 E:\Code\SlickFow\Dapper\obj\Debug\Dapper.dll
 E:\Code\SlickFow\Dapper\obj\Debug\Dapper.pdb
+Y:\WorkStation\WorkFlow-Engine-OData-WebApi-with-OdataClient\Dapper\bin\Debug\Dapper.dll
+Y:\WorkStation\WorkFlow-Engine-OData-WebApi-with-OdataClient\Dapper\bin\Debug\Dapper.pdb
+Y:\WorkStation\WorkFlow-Engine-OData-WebApi-with-OdataClient\Dapper\obj\Debug\Dapper.csprojResolveAssemblyReference.cache
+Y:\WorkStation\WorkFlow-Engine-OData-WebApi-with-OdataClient\Dapper\obj\Debug\Dapper.dll
+Y:\WorkStation\WorkFlow-Engine-OData-WebApi-with-OdataClient\Dapper\obj\Debug\Dapper.pdb

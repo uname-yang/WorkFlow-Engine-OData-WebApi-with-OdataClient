@@ -12,3 +12,10 @@ E:\Code\SlickFow\Slickflow.Data\bin\Debug\Dapper.pdb
 E:\Code\SlickFow\Slickflow.Data\obj\Debug\Slickflow.Data.csprojResolveAssemblyReference.cache
 E:\Code\SlickFow\Slickflow.Data\obj\Debug\Slickflow.Data.dll
 E:\Code\SlickFow\Slickflow.Data\obj\Debug\Slickflow.Data.pdb
+Y:\WorkStation\WorkFlow-Engine-OData-WebApi-with-OdataClient\Slickflow.Data\bin\Debug\Slickflow.Data.dll
+Y:\WorkStation\WorkFlow-Engine-OData-WebApi-with-OdataClient\Slickflow.Data\bin\Debug\Slickflow.Data.pdb
+Y:\WorkStation\WorkFlow-Engine-OData-WebApi-with-OdataClient\Slickflow.Data\bin\Debug\Dapper.dll
+Y:\WorkStation\WorkFlow-Engine-OData-WebApi-with-OdataClient\Slickflow.Data\bin\Debug\Dapper.pdb
+Y:\WorkStation\WorkFlow-Engine-OData-WebApi-with-OdataClient\Slickflow.Data\obj\Debug\Slickflow.Data.csprojResolveAssemblyReference.cache
+Y:\WorkStation\WorkFlow-Engine-OData-WebApi-with-OdataClient\Slickflow.Data\obj\Debug\Slickflow.Data.dll
+Y:\WorkStation\WorkFlow-Engine-OData-WebApi-with-OdataClient\Slickflow.Data\obj\Debug\Slickflow.Data.pdb
