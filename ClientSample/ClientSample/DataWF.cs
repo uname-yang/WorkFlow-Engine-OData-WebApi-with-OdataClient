@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// Generation date: 2015/6/24 12:50:50
+// Generation date: 2015/6/25 13:07:23
 namespace ClientSample.WebAPIwithODataSample.Models.SampleModel
 {
     /// <summary>
@@ -620,208 +620,6 @@ namespace ClientSample.WebAPIwithODataSample.Models.SampleModel
 namespace ClientSample.WebAPIwithODataSample.Models
 {
     /// <summary>
-    /// There are no comments for QueryEntitySingle in the schema.
-    /// </summary>
-    [global::Microsoft.OData.Client.OriginalNameAttribute("QueryEntitySingle")]
-    public partial class QueryEntitySingle : global::Microsoft.OData.Client.DataServiceQuerySingle<QueryEntity>
-    {
-        /// <summary>
-        /// Initialize a new QueryEntitySingle object.
-        /// </summary>
-        public QueryEntitySingle(global::Microsoft.OData.Client.DataServiceContext context, string path)
-            : base(context, path) {}
-
-        /// <summary>
-        /// Initialize a new QueryEntitySingle object.
-        /// </summary>
-        public QueryEntitySingle(global::Microsoft.OData.Client.DataServiceContext context, string path, bool isComposable)
-            : base(context, path, isComposable) {}
-
-        /// <summary>
-        /// Initialize a new QueryEntitySingle object.
-        /// </summary>
-        public QueryEntitySingle(global::Microsoft.OData.Client.DataServiceQuerySingle<QueryEntity> query)
-            : base(query) {}
-
-    }
-    /// <summary>
-    /// There are no comments for QueryEntity in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::Microsoft.OData.Client.Key("ID")]
-    [global::Microsoft.OData.Client.OriginalNameAttribute("QueryEntity")]
-    public partial class QueryEntity : global::Microsoft.OData.Client.BaseEntityType, global::System.ComponentModel.INotifyPropertyChanged
-    {
-        /// <summary>
-        /// Create a new QueryEntity object.
-        /// </summary>
-        /// <param name="ID">Initial value of ID.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        public static QueryEntity CreateQueryEntity(int ID)
-        {
-            QueryEntity queryEntity = new QueryEntity();
-            queryEntity.ID = ID;
-            return queryEntity;
-        }
-        /// <summary>
-        /// There are no comments for Property ID in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        [global::Microsoft.OData.Client.OriginalNameAttribute("ID")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this._ID = value;
-                this.OnIDChanged();
-                this.OnPropertyChanged("ID");
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        private int _ID;
-        partial void OnIDChanging(int value);
-        partial void OnIDChanged();
-        /// <summary>
-        /// There are no comments for Property AppName in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        [global::Microsoft.OData.Client.OriginalNameAttribute("AppName")]
-        public string AppName
-        {
-            get
-            {
-                return this._AppName;
-            }
-            set
-            {
-                this.OnAppNameChanging(value);
-                this._AppName = value;
-                this.OnAppNameChanged();
-                this.OnPropertyChanged("AppName");
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        private string _AppName;
-        partial void OnAppNameChanging(string value);
-        partial void OnAppNameChanged();
-        /// <summary>
-        /// There are no comments for Property AppInstanceID in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        [global::Microsoft.OData.Client.OriginalNameAttribute("AppInstanceID")]
-        public string AppInstanceID
-        {
-            get
-            {
-                return this._AppInstanceID;
-            }
-            set
-            {
-                this.OnAppInstanceIDChanging(value);
-                this._AppInstanceID = value;
-                this.OnAppInstanceIDChanged();
-                this.OnPropertyChanged("AppInstanceID");
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        private string _AppInstanceID;
-        partial void OnAppInstanceIDChanging(string value);
-        partial void OnAppInstanceIDChanged();
-        /// <summary>
-        /// There are no comments for Property ProcessGUID in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        [global::Microsoft.OData.Client.OriginalNameAttribute("ProcessGUID")]
-        public string ProcessGUID
-        {
-            get
-            {
-                return this._ProcessGUID;
-            }
-            set
-            {
-                this.OnProcessGUIDChanging(value);
-                this._ProcessGUID = value;
-                this.OnProcessGUIDChanged();
-                this.OnPropertyChanged("ProcessGUID");
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        private string _ProcessGUID;
-        partial void OnProcessGUIDChanging(string value);
-        partial void OnProcessGUIDChanged();
-        /// <summary>
-        /// There are no comments for Property UserID in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        [global::Microsoft.OData.Client.OriginalNameAttribute("UserID")]
-        public string UserID
-        {
-            get
-            {
-                return this._UserID;
-            }
-            set
-            {
-                this.OnUserIDChanging(value);
-                this._UserID = value;
-                this.OnUserIDChanged();
-                this.OnPropertyChanged("UserID");
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        private string _UserID;
-        partial void OnUserIDChanging(string value);
-        partial void OnUserIDChanged();
-        /// <summary>
-        /// There are no comments for Property UserName in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        [global::Microsoft.OData.Client.OriginalNameAttribute("UserName")]
-        public string UserName
-        {
-            get
-            {
-                return this._UserName;
-            }
-            set
-            {
-                this.OnUserNameChanging(value);
-                this._UserName = value;
-                this.OnUserNameChanged();
-                this.OnPropertyChanged("UserName");
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        private string _UserName;
-        partial void OnUserNameChanging(string value);
-        partial void OnUserNameChanged();
-        /// <summary>
-        /// This event is raised when the value of the property is changed
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        public event global::System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        /// <summary>
-        /// The value of the property is changed
-        /// </summary>
-        /// <param name="property">property name</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        protected virtual void OnPropertyChanged(string property)
-        {
-            if ((this.PropertyChanged != null))
-            {
-                this.PropertyChanged(this, new global::System.ComponentModel.PropertyChangedEventArgs(property));
-            }
-        }
-    }
-    /// <summary>
     /// There are no comments for QueryResultSingle in the schema.
     /// </summary>
     [global::Microsoft.OData.Client.OriginalNameAttribute("QueryResultSingle")]
@@ -1347,6 +1145,145 @@ namespace ClientSample.WebAPIwithODataSample.Models
         }
     }
     /// <summary>
+    /// There are no comments for QueryEntity in the schema.
+    /// </summary>
+    [global::Microsoft.OData.Client.OriginalNameAttribute("QueryEntity")]
+    public partial class QueryEntity : global::System.ComponentModel.INotifyPropertyChanged
+    {
+        /// <summary>
+        /// There are no comments for Property AppName in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        [global::Microsoft.OData.Client.OriginalNameAttribute("AppName")]
+        public string AppName
+        {
+            get
+            {
+                return this._AppName;
+            }
+            set
+            {
+                this.OnAppNameChanging(value);
+                this._AppName = value;
+                this.OnAppNameChanged();
+                this.OnPropertyChanged("AppName");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        private string _AppName;
+        partial void OnAppNameChanging(string value);
+        partial void OnAppNameChanged();
+        /// <summary>
+        /// There are no comments for Property AppInstanceID in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        [global::Microsoft.OData.Client.OriginalNameAttribute("AppInstanceID")]
+        public string AppInstanceID
+        {
+            get
+            {
+                return this._AppInstanceID;
+            }
+            set
+            {
+                this.OnAppInstanceIDChanging(value);
+                this._AppInstanceID = value;
+                this.OnAppInstanceIDChanged();
+                this.OnPropertyChanged("AppInstanceID");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        private string _AppInstanceID;
+        partial void OnAppInstanceIDChanging(string value);
+        partial void OnAppInstanceIDChanged();
+        /// <summary>
+        /// There are no comments for Property ProcessGUID in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        [global::Microsoft.OData.Client.OriginalNameAttribute("ProcessGUID")]
+        public string ProcessGUID
+        {
+            get
+            {
+                return this._ProcessGUID;
+            }
+            set
+            {
+                this.OnProcessGUIDChanging(value);
+                this._ProcessGUID = value;
+                this.OnProcessGUIDChanged();
+                this.OnPropertyChanged("ProcessGUID");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        private string _ProcessGUID;
+        partial void OnProcessGUIDChanging(string value);
+        partial void OnProcessGUIDChanged();
+        /// <summary>
+        /// There are no comments for Property UserID in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        [global::Microsoft.OData.Client.OriginalNameAttribute("UserID")]
+        public string UserID
+        {
+            get
+            {
+                return this._UserID;
+            }
+            set
+            {
+                this.OnUserIDChanging(value);
+                this._UserID = value;
+                this.OnUserIDChanged();
+                this.OnPropertyChanged("UserID");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        private string _UserID;
+        partial void OnUserIDChanging(string value);
+        partial void OnUserIDChanged();
+        /// <summary>
+        /// There are no comments for Property UserName in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        [global::Microsoft.OData.Client.OriginalNameAttribute("UserName")]
+        public string UserName
+        {
+            get
+            {
+                return this._UserName;
+            }
+            set
+            {
+                this.OnUserNameChanging(value);
+                this._UserName = value;
+                this.OnUserNameChanged();
+                this.OnPropertyChanged("UserName");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        private string _UserName;
+        partial void OnUserNameChanging(string value);
+        partial void OnUserNameChanged();
+        /// <summary>
+        /// This event is raised when the value of the property is changed
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        public event global::System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        /// <summary>
+        /// The value of the property is changed
+        /// </summary>
+        /// <param name="property">property name</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        protected virtual void OnPropertyChanged(string property)
+        {
+            if ((this.PropertyChanged != null))
+            {
+                this.PropertyChanged(this, new global::System.ComponentModel.PropertyChangedEventArgs(property));
+            }
+        }
+    }
+    /// <summary>
     /// There are no comments for WfRunner in the schema.
     /// </summary>
     [global::Microsoft.OData.Client.OriginalNameAttribute("WfRunner")]
@@ -1548,6 +1485,29 @@ namespace ClientSample.WebAPIwithODataSample.Models
         partial void OnJumpbackActivityGUIDChanging(string value);
         partial void OnJumpbackActivityGUIDChanged();
         /// <summary>
+        /// There are no comments for Property TaskID in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        [global::Microsoft.OData.Client.OriginalNameAttribute("TaskID")]
+        public global::System.Nullable<int> TaskID
+        {
+            get
+            {
+                return this._TaskID;
+            }
+            set
+            {
+                this.OnTaskIDChanging(value);
+                this._TaskID = value;
+                this.OnTaskIDChanged();
+                this.OnPropertyChanged("TaskID");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
+        private global::System.Nullable<int> _TaskID;
+        partial void OnTaskIDChanging(global::System.Nullable<int> value);
+        partial void OnTaskIDChanged();
+        /// <summary>
         /// This event is raised when the value of the property is changed
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
@@ -1663,29 +1623,6 @@ namespace ClientSample.WebAPIwithODataSample.Models
     /// </summary>
     public static class ExtensionMethods
     {
-        /// <summary>
-        /// Get an entity of type global::ClientSample.WebAPIwithODataSample.Models.QueryEntity as global::ClientSample.WebAPIwithODataSample.Models.QueryEntitySingle specified by key from an entity set
-        /// </summary>
-        /// <param name="source">source entity set</param>
-        /// <param name="keys">dictionary with the names and values of keys</param>
-        public static global::ClientSample.WebAPIwithODataSample.Models.QueryEntitySingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryEntity> source, global::System.Collections.Generic.Dictionary<string, object> keys)
-        {
-            return new global::ClientSample.WebAPIwithODataSample.Models.QueryEntitySingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
-        }
-        /// <summary>
-        /// Get an entity of type global::ClientSample.WebAPIwithODataSample.Models.QueryEntity as global::ClientSample.WebAPIwithODataSample.Models.QueryEntitySingle specified by key from an entity set
-        /// </summary>
-        /// <param name="source">source entity set</param>
-        /// <param name="iD">The value of iD</param>
-        public static global::ClientSample.WebAPIwithODataSample.Models.QueryEntitySingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryEntity> source,
-            int iD)
-        {
-            global::System.Collections.Generic.Dictionary<string, object> keys = new global::System.Collections.Generic.Dictionary<string, object>
-            {
-                { "ID", iD }
-            };
-            return new global::ClientSample.WebAPIwithODataSample.Models.QueryEntitySingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
-        }
         /// <summary>
         /// Get an entity of type global::ClientSample.WebAPIwithODataSample.Models.QueryResult as global::ClientSample.WebAPIwithODataSample.Models.QueryResultSingle specified by key from an entity set
         /// </summary>
@@ -1816,24 +1753,6 @@ namespace ClientSample.WF
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
         private global::Microsoft.OData.Client.DataServiceQuery<global::ClientSample.WebAPIwithODataSample.Models.SampleModel.Vedio> _Vedios;
         /// <summary>
-        /// There are no comments for QueryEntities in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        [global::Microsoft.OData.Client.OriginalNameAttribute("QueryEntities")]
-        public global::Microsoft.OData.Client.DataServiceQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryEntity> QueryEntities
-        {
-            get
-            {
-                if ((this._QueryEntities == null))
-                {
-                    this._QueryEntities = base.CreateQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryEntity>("QueryEntities");
-                }
-                return this._QueryEntities;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        private global::Microsoft.OData.Client.DataServiceQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryEntity> _QueryEntities;
-        /// <summary>
         /// There are no comments for QueryResults in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
@@ -1852,24 +1771,6 @@ namespace ClientSample.WF
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
         private global::Microsoft.OData.Client.DataServiceQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryResult> _QueryResults;
         /// <summary>
-        /// There are no comments for QueryResult in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        [global::Microsoft.OData.Client.OriginalNameAttribute("QueryResult")]
-        public global::Microsoft.OData.Client.DataServiceQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryResult> QueryResult
-        {
-            get
-            {
-                if ((this._QueryResult == null))
-                {
-                    this._QueryResult = base.CreateQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryResult>("QueryResult");
-                }
-                return this._QueryResult;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        private global::Microsoft.OData.Client.DataServiceQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryResult> _QueryResult;
-        /// <summary>
         /// There are no comments for Vedios in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
@@ -1878,28 +1779,12 @@ namespace ClientSample.WF
             base.AddObject("Vedios", vedio);
         }
         /// <summary>
-        /// There are no comments for QueryEntities in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        public void AddToQueryEntities(global::ClientSample.WebAPIwithODataSample.Models.QueryEntity queryEntity)
-        {
-            base.AddObject("QueryEntities", queryEntity);
-        }
-        /// <summary>
         /// There are no comments for QueryResults in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
         public void AddToQueryResults(global::ClientSample.WebAPIwithODataSample.Models.QueryResult queryResult)
         {
             base.AddObject("QueryResults", queryResult);
-        }
-        /// <summary>
-        /// There are no comments for QueryResult in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
-        public void AddToQueryResult(global::ClientSample.WebAPIwithODataSample.Models.QueryResult queryResult)
-        {
-            base.AddObject("QueryResult", queryResult);
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.3.0")]
         private abstract class GeneratedEdmModel
@@ -1942,17 +1827,6 @@ namespace ClientSample.WF
       </ComplexType>
     </Schema>
     <Schema Namespace=""WebAPIwithODataSample.Models"" xmlns=""http://docs.oasis-open.org/odata/ns/edm"">
-      <EntityType Name=""QueryEntity"">
-        <Key>
-          <PropertyRef Name=""ID"" />
-        </Key>
-        <Property Name=""ID"" Type=""Edm.Int32"" Nullable=""false"" />
-        <Property Name=""AppName"" Type=""Edm.String"" />
-        <Property Name=""AppInstanceID"" Type=""Edm.String"" />
-        <Property Name=""ProcessGUID"" Type=""Edm.String"" />
-        <Property Name=""UserID"" Type=""Edm.String"" />
-        <Property Name=""UserName"" Type=""Edm.String"" />
-      </EntityType>
       <EntityType Name=""QueryResult"">
         <Key>
           <PropertyRef Name=""ID"" />
@@ -1977,6 +1851,13 @@ namespace ClientSample.WF
         <Property Name=""ActivityState"" Type=""Edm.Int16"" Nullable=""false"" />
         <Property Name=""ProcessState"" Type=""Edm.Int16"" Nullable=""false"" />
       </EntityType>
+      <ComplexType Name=""QueryEntity"">
+        <Property Name=""AppName"" Type=""Edm.String"" />
+        <Property Name=""AppInstanceID"" Type=""Edm.String"" />
+        <Property Name=""ProcessGUID"" Type=""Edm.String"" />
+        <Property Name=""UserID"" Type=""Edm.String"" />
+        <Property Name=""UserName"" Type=""Edm.String"" />
+      </ComplexType>
       <ComplexType Name=""WfRunner"">
         <Property Name=""ID"" Type=""Edm.Int32"" Nullable=""false"" />
         <Property Name=""AppName"" Type=""Edm.String"" />
@@ -1986,6 +1867,7 @@ namespace ClientSample.WF
         <Property Name=""UserName"" Type=""Edm.String"" />
         <Property Name=""NextActivityPerformers"" Type=""Collection(WebAPIwithODataSample.Models.Point)"" />
         <Property Name=""JumpbackActivityGUID"" Type=""Edm.String"" />
+        <Property Name=""TaskID"" Type=""Edm.Int32"" />
       </ComplexType>
       <ComplexType Name=""Point"">
         <Property Name=""PathID"" Type=""Edm.String"" />
@@ -2052,16 +1934,14 @@ namespace ClientSample.WF
       </Action>
       <EntityContainer Name=""Container"">
         <EntitySet Name=""Vedios"" EntityType=""WebAPIwithODataSample.Models.SampleModel.Vedio"" />
-        <EntitySet Name=""QueryEntities"" EntityType=""WebAPIwithODataSample.Models.QueryEntity"" />
         <EntitySet Name=""QueryResults"" EntityType=""WebAPIwithODataSample.Models.QueryResult"" />
-        <EntitySet Name=""QueryResult"" EntityType=""WebAPIwithODataSample.Models.QueryResult"" />
         <ActionImport Name=""ReturnAc"" Action=""WF.ReturnAc"" EntitySet=""Vedios"" />
         <FunctionImport Name=""CheckOut"" Function=""WF.CheckOut"" EntitySet=""Vedios"" IncludeInServiceDocument=""true"" />
         <ActionImport Name=""CreateVedio"" Action=""WF.CreateVedio"" EntitySet=""Vedios"" />
         <ActionImport Name=""ListAc"" Action=""WF.ListAc"" />
         <ActionImport Name=""CheckOutMany"" Action=""WF.CheckOutMany"" EntitySet=""Vedios"" />
-        <FunctionImport Name=""GetRunningTasks"" Function=""WF.GetRunningTasks"" EntitySet=""QueryResult"" IncludeInServiceDocument=""true"" />
-        <FunctionImport Name=""GetReadyTasks"" Function=""WF.GetReadyTasks"" EntitySet=""QueryResult"" IncludeInServiceDocument=""true"" />
+        <FunctionImport Name=""GetRunningTasks"" Function=""WF.GetRunningTasks"" EntitySet=""QueryResults"" IncludeInServiceDocument=""true"" />
+        <FunctionImport Name=""GetReadyTasks"" Function=""WF.GetReadyTasks"" EntitySet=""QueryResults"" IncludeInServiceDocument=""true"" />
         <ActionImport Name=""StartProcess"" Action=""WF.StartProcess"" />
         <ActionImport Name=""RunProcess"" Action=""WF.RunProcess"" />
         <ActionImport Name=""WithdrawProcess"" Action=""WF.WithdrawProcess"" />
@@ -2109,17 +1989,17 @@ namespace ClientSample.WF
         /// There are no comments for GetRunningTasks in the schema.
         /// </summary>
         [global::Microsoft.OData.Client.OriginalNameAttribute("GetRunningTasks")]
-        public global::Microsoft.OData.Client.DataServiceQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryResult> GetRunningTasks(global::ClientSample.WebAPIwithODataSample.Models.QueryEntity query, bool useEntityReference = false)
+        public global::Microsoft.OData.Client.DataServiceQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryResult> GetRunningTasks(global::ClientSample.WebAPIwithODataSample.Models.QueryEntity query)
         {
-            return this.CreateFunctionQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryResult>("", "GetRunningTasks", false, new global::Microsoft.OData.Client.UriEntityOperationParameter("query", query, useEntityReference));
+            return this.CreateFunctionQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryResult>("", "GetRunningTasks", false, new global::Microsoft.OData.Client.UriOperationParameter("query", query));
         }
         /// <summary>
         /// There are no comments for GetReadyTasks in the schema.
         /// </summary>
         [global::Microsoft.OData.Client.OriginalNameAttribute("GetReadyTasks")]
-        public global::Microsoft.OData.Client.DataServiceQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryResult> GetReadyTasks(global::ClientSample.WebAPIwithODataSample.Models.QueryEntity query, bool useEntityReference = false)
+        public global::Microsoft.OData.Client.DataServiceQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryResult> GetReadyTasks(global::ClientSample.WebAPIwithODataSample.Models.QueryEntity query)
         {
-            return this.CreateFunctionQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryResult>("", "GetReadyTasks", false, new global::Microsoft.OData.Client.UriEntityOperationParameter("query", query, useEntityReference));
+            return this.CreateFunctionQuery<global::ClientSample.WebAPIwithODataSample.Models.QueryResult>("", "GetReadyTasks", false, new global::Microsoft.OData.Client.UriOperationParameter("query", query));
         }
         /// <summary>
         /// There are no comments for ReturnAc in the schema.

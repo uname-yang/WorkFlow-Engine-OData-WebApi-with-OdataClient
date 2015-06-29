@@ -20,6 +20,7 @@ namespace WebAPIwithODataSample.Models
         public string UserName { get; set; }
         public IList<Point> NextActivityPerformers { get; set; }
         public string JumpbackActivityGUID { get; set; }     //回跳的节点GUID
+        public int? TaskID { get; set; }  
     }
 
     public class Point

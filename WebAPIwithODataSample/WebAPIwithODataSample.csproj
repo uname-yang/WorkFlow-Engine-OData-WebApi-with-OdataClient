@@ -280,6 +280,18 @@
     <Content Include="XML\CH_Out.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="XML\IM_IN.xml" />
+    <Content Include="XML\IM_IN_S1.xml" />
+    <Content Include="XML\officeIn.andSplitandJoin.xml" />
+    <Content Include="XML\officeIn.orSplit-end.xml" />
+    <Content Include="XML\officeIn.orSplitorJoin.xml" />
+    <Content Include="XML\officeIn.xorSplitxorJoin.xml" />
+    <Content Include="XML\price.normal.tmp.xml" />
+    <Content Include="XML\price.subprocess.multipleinstance.tmp.xml" />
+    <Content Include="XML\price.subprocess.tmp.xml" />
+    <Content Include="XML\price.task.multipleinstance.tmp.xml" />
+    <Content Include="XML\price.xml" />
+    <None Include="Properties\PublishProfiles\SWOW.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

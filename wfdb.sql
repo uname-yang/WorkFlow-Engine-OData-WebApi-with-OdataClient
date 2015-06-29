@@ -191,7 +191,7 @@ CREATE TABLE [dbo].[WfTransitionInstance](
 	[ID] [int] IDENTITY(1,1) NOT NULL,
 	[TransitionGUID] [varchar](100) NOT NULL,
 	[AppName] [nvarchar](50) NOT NULL,
-	[AppInstanceID] [int] NOT NULL,
+	[AppInstanceID] [nvarchar](50) NOT NULL,
 	[ProcessInstanceID] [int] NOT NULL,
 	[ProcessGUID] [varchar](100) NOT NULL,
 	[TransitionType] [tinyint] NOT NULL,
@@ -288,7 +288,15 @@ GO
 SET ANSI_PADDING OFF
 GO
 SET IDENTITY_INSERT [dbo].[WfProcess] ON
+
 INSERT [dbo].[WfProcess] ([ID], [ProcessGUID], [ProcessName], [Version], [IsUsing], [AppType], [PageUrl], [XmlFileName], [XmlFilePath], [XmlContent], [Description], [CreatedDateTime], [LastUpdatedDateTime]) VALUES (32, N'40c4be7f-2c7d-4391-92a3-32e2dc24f58f', N'接口流程', N'1.0', 1, N'Interface_Mangement', N'', N'CH_Out.xml', N'CH_Out.xml', NULL, N'', CAST(0x0000A4B800E5B5D1 AS DateTime), NULL)
+INSERT [dbo].[WfProcess] ([ID], [ProcessGUID], [ProcessName], [Version], [IsUsing], [AppType], [PageUrl], [XmlFileName], [XmlFilePath], [XmlContent], [Description], [CreatedDateTime], [LastUpdatedDateTime]) VALUES (33, N'40c4be7f-2c7d-4391-92a3-32e2dc24f58a', N'officeIn.andSplitandJoin', N'1.0', 1, N'', N'', N'', N'officeIn.andSplitandJoin.xml', NULL, N'', CAST(0x0000A4B800E5B5D1 AS DateTime), NULL)
+INSERT [dbo].[WfProcess] ([ID], [ProcessGUID], [ProcessName], [Version], [IsUsing], [AppType], [PageUrl], [XmlFileName], [XmlFilePath], [XmlContent], [Description], [CreatedDateTime], [LastUpdatedDateTime]) VALUES (34, N'40c4be7f-2c7d-4391-92a3-32e2dc24f58b', N'officeIn.orSplit-end', N'1.0', 1, N't', N'', N'', N'officeIn.orSplit-end.xml', NULL, N'', CAST(0x0000A4B800E5B5D1 AS DateTime), NULL)
+INSERT [dbo].[WfProcess] ([ID], [ProcessGUID], [ProcessName], [Version], [IsUsing], [AppType], [PageUrl], [XmlFileName], [XmlFilePath], [XmlContent], [Description], [CreatedDateTime], [LastUpdatedDateTime]) VALUES (35, N'40c4be7f-2c7d-4391-92a3-32e2dc24f58c', N'officeIn.orSplitorJoin', N'1.0', 1, N't', N'', N'', N'officeIn.orSplitorJoin.xml', NULL, N'', CAST(0x0000A4B800E5B5D1 AS DateTime), NULL)
+INSERT [dbo].[WfProcess] ([ID], [ProcessGUID], [ProcessName], [Version], [IsUsing], [AppType], [PageUrl], [XmlFileName], [XmlFilePath], [XmlContent], [Description], [CreatedDateTime], [LastUpdatedDateTime]) VALUES (36, N'40c4be7f-2c7d-4391-92a3-32e2dc24f58d', N'price.subprocess.multipleinstance.tmp', N'1.0', 1, N'', N'', N'', N'price.subprocess.multipleinstance.tmp.xml', NULL, N'', CAST(0x0000A4B800E5B5D1 AS DateTime), NULL)
+INSERT [dbo].[WfProcess] ([ID], [ProcessGUID], [ProcessName], [Version], [IsUsing], [AppType], [PageUrl], [XmlFileName], [XmlFilePath], [XmlContent], [Description], [CreatedDateTime], [LastUpdatedDateTime]) VALUES (37, N'40c4be7f-2c7d-4391-92a3-32e2dc24f58e', N'price.task.multipleinstance.tmp', N'1.0', 1, N'', N'', N'', N'price.task.multipleinstance.tmp.xml', NULL, N'', CAST(0x0000A4B800E5B5D1 AS DateTime), NULL)
+INSERT [dbo].[WfProcess] ([ID], [ProcessGUID], [ProcessName], [Version], [IsUsing], [AppType], [PageUrl], [XmlFileName], [XmlFilePath], [XmlContent], [Description], [CreatedDateTime], [LastUpdatedDateTime]) VALUES (38, N'40c4be7f-2c7d-4391-92a3-32e2dc24f585', N'price.subprocess.tmp', N'1.0', 1, N'', N'', N'', N'price.subprocess.tmp.xml', NULL, N'', CAST(0x0000A4B800E5B5D1 AS DateTime), NULL)
+INSERT [dbo].[WfProcess] ([ID], [ProcessGUID], [ProcessName], [Version], [IsUsing], [AppType], [PageUrl], [XmlFileName], [XmlFilePath], [XmlContent], [Description], [CreatedDateTime], [LastUpdatedDateTime]) VALUES (39, N'40c4be7f-2c7d-4391-92a3-32e2dc24f586', N'officeIn.xorSplitxorJoin', N'1.0', 1, N'', N'', N'', N'officeIn.xorSplitxorJoin.xml', NULL, N'', CAST(0x0000A4B800E5B5D1 AS DateTime), NULL)
 SET IDENTITY_INSERT [dbo].[WfProcess] OFF
 /****** Object:  Table [dbo].[WfLog]    Script Date: 06/02/2015 15:29:07 ******/
 SET ANSI_NULLS ON
@@ -372,7 +380,7 @@ CREATE TABLE [dbo].[WfTasks](
 	[ActivityInstanceID] [int] NOT NULL,
 	[ProcessInstanceID] [int] NOT NULL,
 	[AppName] [nvarchar](50) NOT NULL,
-	[AppInstanceID] [int] NOT NULL,
+	[AppInstanceID] [nvarchar](50) NOT NULL,
 	[ProcessGUID] [varchar](100) NOT NULL,
 	[ActivityGUID] [varchar](100) NOT NULL,
 	[ActivityName] [nvarchar](50) NOT NULL,

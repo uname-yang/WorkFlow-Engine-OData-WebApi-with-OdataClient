@@ -23,11 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API.Test", "API.Test", "{96
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFCOTest", "WFCOTest\WFCOTest.csproj", "{23EF62FE-4336-4562-884B-25D4A8DFC837}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTool", "ODataClientSample\ClientTool.csproj", "{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{C425EB6C-9125-49C0-970C-C5C195C538B0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientSample", "ClientSample\ClientSample\ClientSample.csproj", "{7522062E-A8DB-4897-8D99-D60D5AD009DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTool", "ClientTools\ClientTool.csproj", "{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}"
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
@@ -55,14 +55,14 @@ Global
 		SccProjectTopLevelParentUniqueName5 = Slickflow.sln
 		SccProjectName5 = WFCOTest
 		SccLocalPath5 = WFCOTest
-		SccProjectUniqueName6 = ODataClientSample\\ClientTool.csproj
+		SccProjectUniqueName6 = ClientSample\\ClientSample\\ClientSample.csproj
 		SccProjectTopLevelParentUniqueName6 = Slickflow.sln
-		SccProjectName6 = ODataClientSample
-		SccLocalPath6 = ODataClientSample
-		SccProjectUniqueName7 = ClientSample\\ClientSample\\ClientSample.csproj
+		SccProjectName6 = ClientSample/ClientSample
+		SccLocalPath6 = ClientSample\\ClientSample
+		SccProjectUniqueName7 = ClientTools\\ClientTool.csproj
 		SccProjectTopLevelParentUniqueName7 = Slickflow.sln
-		SccProjectName7 = ClientSample/ClientSample
-		SccLocalPath7 = ClientSample\\ClientSample
+		SccProjectName7 = ClientTools
+		SccLocalPath7 = ClientTools
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,14 +89,14 @@ Global
 		{23EF62FE-4336-4562-884B-25D4A8DFC837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23EF62FE-4336-4562-884B-25D4A8DFC837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23EF62FE-4336-4562-884B-25D4A8DFC837}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7522062E-A8DB-4897-8D99-D60D5AD009DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7522062E-A8DB-4897-8D99-D60D5AD009DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7522062E-A8DB-4897-8D99-D60D5AD009DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7522062E-A8DB-4897-8D99-D60D5AD009DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC8D57A-811C-4A9C-B3CD-5013AF4BB7A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

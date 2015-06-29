@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <Participants>
+  </Participants>
+  <WorkflowProcess>
+    <Process name="中核对内设计接口流程" id="f4f4fdb2-a1c8-49eb-b1ff-38e2095fa77d">
+      <Description>中核对内设计接口流程</Description>
+      <Activities>
+        <Activity name="开始" id="e357fe9e-dc33-4075-bd34-6f7425bb7671">
+          <ActivityType type="StartNode"/>
+        </Activity>
+        
+        <Activity name="申请方编制" id="cc60b13c-a7ba-49a0-ad22-896c0419a786">
+          <ActivityType type="TaskNode" />
+        </Activity>
+        <Activity name="申请方审核" id="6d63dce1-0a72-4775-9a48-dd7fe8cf8289">
+          <ActivityType type="TaskNode" />
+        </Activity>
+        <Activity name="申请方批准" id="d84f264f-2c9e-4d69-a01c-01e41435b9ac">
+          <ActivityType type="TaskNode" />
+        </Activity>
+        
+        <Activity name="And分支节点" id="ea0b51ed-0c2c-441f-b70b-5b5e2685b467">
+          <ActivityType type="GatewayNode" gatewaySplitJoinType="Split" gatewayDirection="AndSplit"/>
+        </Activity>
+        <Activity name="审核登记分发_李" id="0198654e-4211-426c-a624-fbade28ef5e9">
+          <ActivityType type="TaskNode" />
+        </Activity>
+        <Activity name="审核登记分发_梁" id="b8afecd1-e68d-471a-ba1f-9ca4f277412a">
+          <ActivityType type="TaskNode" />
+        </Activity>
+        <Activity name="And合并节点" id="b25c97e2-5dfc-4bcb-99c9-51569c394ce2">
+          <ActivityType type="GatewayNode" gatewaySplitJoinType="Join" gatewayDirection="AndJoin"/>
+        </Activity>
+        
+        
+        <Activity name="处理会签子流程" id="76f75acb-2c47-4727-a026-a212f6407780">
+          <ActivityType type="SubProcessNode" subid="23cef3be-8b77-41ac-bec6-7e387936ea10" complextype="SignTogether" mergetype="Parallel"/>
+        </Activity>
+        
+        <Activity name="结束" id="b70e717a-08da-419f-b2eb-7a3d71f054de">
+          <ActivityType type="EndNode"/>
+        </Activity>
+      </Activities>
+      
+      <Transitions>
+        <Transition name="T1" id="8cf45855-a29c-4d8f-b7bb-5a8d7de25f34" from="e357fe9e-dc33-4075-bd34-6f7425bb7671" to="cc60b13c-a7ba-49a0-ad22-896c0419a786" direction="Forward">
+          <Description />
+          <Conditions />
+        </Transition>
+        <Transition name="T2" id="8e51f7d5-18f2-47bd-8668-a1a4b2322add" from="cc60b13c-a7ba-49a0-ad22-896c0419a786" to="6d63dce1-0a72-4775-9a48-dd7fe8cf8289" direction="Forward">
+          <Description />
+          <Conditions />
+        </Transition>
+        <Transition name="T3" id="75e48fc4-1094-49f5-a613-754a4e71ca9b" from="6d63dce1-0a72-4775-9a48-dd7fe8cf8289" to="d84f264f-2c9e-4d69-a01c-01e41435b9ac" direction="Forward">
+          <Description />
+          <Conditions />
+        </Transition>
+        
+        <Transition name="T4" id="84751f0e-3760-4dc8-b42e-8946bdbadbb7" from="d84f264f-2c9e-4d69-a01c-01e41435b9ac" to="ea0b51ed-0c2c-441f-b70b-5b5e2685b467" direction="Forward">
+          <Description />
+          <Conditions />
+        </Transition>
+
+        <Transition name="A1" id="7b4e4be7-a74d-4a8b-b2ce-bb367b0186be" from="ea0b51ed-0c2c-441f-b70b-5b5e2685b467" to="0198654e-4211-426c-a624-fbade28ef5e9" direction="Forward">
+          <Description />
+          <GroupBehaviour priority="1" parallelOption="Necessary"/>
+        </Transition>
+
+        <Transition name="A2" id="df3ba298-3f28-4b30-983e-5a5c10bf19a6" from="ea0b51ed-0c2c-441f-b70b-5b5e2685b467" to="b8afecd1-e68d-471a-ba1f-9ca4f277412a" direction="Forward">
+          <Description />
+          <GroupBehaviour priority="2" parallelOption="Necessary"/>
+        </Transition>
+
+        <Transition name="A3" id="280a25b7-3175-40ef-af80-0e6c7f13e019" from="0198654e-4211-426c-a624-fbade28ef5e9" to="b25c97e2-5dfc-4bcb-99c9-51569c394ce2" direction="Forward">
+          <Description />
+        </Transition>
+
+        <Transition name="A4" id="c6170a27-8b54-41e9-84e5-d89e5820b30f" from="b8afecd1-e68d-471a-ba1f-9ca4f277412a" to="b25c97e2-5dfc-4bcb-99c9-51569c394ce2" direction="Forward">
+          <Description />
+        </Transition>
+        
+        
+        <Transition name="T5" id="9f707837-8e44-4c77-b10f-1167e67f3a8e" from="b25c97e2-5dfc-4bcb-99c9-51569c394ce2" to="76f75acb-2c47-4727-a026-a212f6407780" direction="Forward">
+          <Description />
+          <Conditions />
+        </Transition>
+        <!--结束-->
+        <Transition name="T6" id="77a3b03d-d2cd-420d-801e-19bc11ef3d10" from="76f75acb-2c47-4727-a026-a212f6407780" to="b70e717a-08da-419f-b2eb-7a3d71f054de" direction="Forward">
+          <Description />
+          <Conditions />
+        </Transition>
+      </Transitions>
+    </Process>
+  </WorkflowProcess>
+</Package>

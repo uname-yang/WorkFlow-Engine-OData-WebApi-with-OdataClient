@@ -288,7 +288,8 @@ namespace WFCOTest
     public static class WebOpreation
     {
         static readonly Uri _baseAddress = new Uri("http://localhost:53433/");
-
+        //static readonly Uri _baseAddress = new Uri("http://172.16.22.26:8000/");
+        
         //GET
         public static string Get(string path)
         {

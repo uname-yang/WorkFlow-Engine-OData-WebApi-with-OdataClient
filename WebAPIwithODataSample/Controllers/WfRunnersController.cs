@@ -323,6 +323,23 @@ namespace WebAPIwithODataSample.Controllers
             }
         }
 
+        //[HttpPost]
+        //[ODataRoute("SuspendProcess")]
+        //public IHttpActionResult SuspendProcess(ODataActionParameters parameters)
+        //{
+        //    WfRunner WfRunner = parameters["WfRunner"] as WfRunner;
+        //    var WfAppRunner = WfRunner.ToAppRunner(); 
+        //    IWorkflowService service = new WorkflowService();
+        //    try
+        //    {
+        //        var result = service.SuspendProcess(WfAppRunner.TaskID,WfAppRunner);
+        //    return Ok();
+        //    }
+        //    catch (Exception w)
+        //    {
+        //        return BadRequest(w.Message);
+        //    }
+        //}      
         #endregion Workflow Api访问操作
 
     }

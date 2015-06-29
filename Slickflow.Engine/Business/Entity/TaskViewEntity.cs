@@ -14,7 +14,6 @@ namespace Slickflow.Engine.Business.Entity
     [Table("vwWfActivityInstanceTasks")]
     public class TaskViewEntity
     {
-        public int ID { get; set; }
         public int TaskID { get; set; }
         public string AppName { get; set; }
         public string AppInstanceID { get; set; }
