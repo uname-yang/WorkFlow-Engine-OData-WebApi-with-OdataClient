@@ -1,0 +1,7 @@
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Data\bin\Debug\Slickflow.Data.dll
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Data\bin\Debug\Slickflow.Data.pdb
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Data\bin\Debug\Dapper.dll
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Data\bin\Debug\Dapper.pdb
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Data\obj\Debug\Slickflow.Data.csprojResolveAssemblyReference.cache
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Data\obj\Debug\Slickflow.Data.dll
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Data\obj\Debug\Slickflow.Data.pdb

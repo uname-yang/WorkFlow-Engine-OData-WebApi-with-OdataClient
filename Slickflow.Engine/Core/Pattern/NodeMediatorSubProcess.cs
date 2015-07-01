@@ -226,13 +226,13 @@ namespace Slickflow.Engine.Core.Pattern
                 //启动子流程
                 WfExecutedResult startedResult = null;
                 var subProcessNode = (SubProcessNode)toActivity.Node;
-                subProcessNode.ActivityInstance = toActivityInstance;
+                subProcessNode.ActivityInstance = fromActivityInstance;
                 WfAppRunner subRunner = CopyActivityForwardRunner(activityResource.AppRunner, 
                     new Performer(activityResource.AppRunner.UserID, 
                         activityResource.AppRunner.UserName),
                     subProcessNode);
                 var runtimeInstance = WfRuntimeManagerFactory.CreateRuntimeInstanceStartup(subRunner,
-                    processInstance,
+                    ActivityForwardContext.ProcessInstance,
                     subProcessNode,
                     ref startedResult);
                 runtimeInstance.Execute(Session);

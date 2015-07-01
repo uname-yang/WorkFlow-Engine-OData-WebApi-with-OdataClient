@@ -1,0 +1,4 @@
+E:\Code\WorkFlowAPI\Slickflow\Dapper\bin\Debug\Dapper.dll
+E:\Code\WorkFlowAPI\Slickflow\Dapper\bin\Debug\Dapper.pdb
+E:\Code\WorkFlowAPI\Slickflow\Dapper\obj\Debug\Dapper.dll
+E:\Code\WorkFlowAPI\Slickflow\Dapper\obj\Debug\Dapper.pdb

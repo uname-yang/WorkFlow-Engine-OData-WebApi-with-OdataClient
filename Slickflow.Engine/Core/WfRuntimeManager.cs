@@ -129,10 +129,7 @@ namespace Slickflow.Engine.Core
         internal void Callback(WfExecutedResult result)
         {
             WfEventArgs args = new WfEventArgs(result);
-            if (_onWfProcessExecuted!=null)
-            {
-                _onWfProcessExecuted(this, args);
-            }
+            _onWfProcessExecuted(this, args);
         }
         #endregion
 

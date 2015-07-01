@@ -41,9 +41,6 @@
     <Reference Include="Autofac">
       <HintPath>..\DLL\Autofac.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\TFSHome\WallwaERP\Source\WE2.0\Dll\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="ServiceStack.Text">
       <HintPath>..\DLL\ServiceStack.Text.dll</HintPath>
     </Reference>

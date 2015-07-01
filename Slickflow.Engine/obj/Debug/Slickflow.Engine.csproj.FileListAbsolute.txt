@@ -1,0 +1,13 @@
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\bin\Debug\Slickflow.Engine.dll.config
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\bin\Debug\Slickflow.Engine.dll
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\bin\Debug\Slickflow.Engine.pdb
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\bin\Debug\Autofac.dll
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\bin\Debug\Dapper.dll
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\bin\Debug\ServiceStack.Text.dll
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\bin\Debug\Slickflow.Data.dll
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\bin\Debug\Dapper.pdb
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\bin\Debug\Slickflow.Data.pdb
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\bin\Debug\Autofac.xml
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\obj\Debug\Slickflow.Engine.csprojResolveAssemblyReference.cache
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\obj\Debug\Slickflow.Engine.dll
+E:\Code\WorkFlowAPI\Slickflow\Slickflow.Engine\obj\Debug\Slickflow.Engine.pdb

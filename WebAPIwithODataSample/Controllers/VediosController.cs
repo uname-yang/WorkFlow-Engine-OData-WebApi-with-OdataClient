@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.OData;
 using System.Web.OData.Routing;
+using WebAPIwithODataSample.Extension.BasicAuth;
 using WebAPIwithODataSample.Models.SampleModel;
 
 namespace WebAPIwithODataSample.Controllers
@@ -15,6 +16,7 @@ namespace WebAPIwithODataSample.Controllers
         private VedioContext _db = new VedioContext();
 
         #region Built-in
+        [BasicAuthorize]
         [EnableQuery(PageSize = 3)]
         public IHttpActionResult Get() //http://localhost:53520/odata/Vedios Get
         {

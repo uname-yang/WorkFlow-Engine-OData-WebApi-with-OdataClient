@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.OData.Edm</id>
+    <version>6.12.0</version>
+    <title>EdmLib</title>
+    <authors>Microsoft Corporation</authors>
+    <owners>Microsoft Corporation</owners>
+    <licenseUrl>http://go.microsoft.com/?linkid=9809688</licenseUrl>
+    <projectUrl>http://odata.github.io/</projectUrl>
+    <iconUrl>http://static.tumblr.com/hgchgxz/9ualgdf98/icon.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Classes to represent, construct, parse, serialize and validate entity data models. Supports OData v4 only. Targets .NET Portable Lib with support for .NET 4.0, SL 5.0, Win Phone 8, Win Phone 8.1, and Win 8. Localized for CHS, CHT, DEU, ESN, FRA, ITA, JPN, KOR and RUS.
+OData .NET library is open source at http://github.com/OData/odata.net</description>
+    <summary>Classes to represent, construct, parse, serialize and validate entity data models. Supports OData v4 only.</summary>
+    <releaseNotes>Features:
+     [GitHub Issue #86] [Pull request #141 &amp; #142 by Jeff Wight] ODataUriParser now supports parsing $skiptoken &amp; $deltatoken query options in ODataUri.
+     [GitHub Issue #97] [Pull request #184 by OData team] ODataLib/EdmLib/Spatial now supports .Net Core. 
+     [GitHub Issue #108] [Pull request #139 by Shahzor Khan] ODataLib now supports overriding primitive type payload format during serialization/deserialization.
+     [GitHub Issue #143] [Pull request #161 by Adam Caviness] OData client for .Net now supports adding undeclared dynamic properties to ODataEntry.
+     [GitHub Issue #158] [Pull request #170 by OData team]Client now supports turning on/off instance annotation materialization.
+
+Bug Fixes:
+     [GitHub Issue #107] Fix a NullReferenceException in DataServiceCollection in OData client for .Net.
+     [GitHub Issue #154] Fix the bug that ODataUriParser doesn’t support passing integral literal to function parameter of type Edm.Byte, Edm.SByte and Edm.Int16.
+
+Improvements:
+     [GitHub Issue #157] [Pull request #169 by OData team]Improve the performance of OData client for .Net when client CLR type using OriginalNameAttribute.</releaseNotes>
+    <tags>wcf data services odata odatalib edmlib spatial ado.net ef entity framework open protocol wcfds wcfdataservices dataservices</tags>
+  </metadata>
+</package>
